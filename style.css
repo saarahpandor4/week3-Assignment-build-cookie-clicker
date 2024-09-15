@@ -1,0 +1,104 @@
+body {
+  background-color: burlywood;
+}
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 1500;
+  text-align: center;
+  font-size: 400%;
+  color: rgb(191, 53, 3);
+}
+
+#cookie-count {
+  font-size: x-large;
+  font-weight: 800px;
+  font-weight: bolder;
+  font-style: initial;
+  color: rgb(1, 5, 9);
+}
+#cookies-per-second {
+  font-size: x-large;
+  font-weight: 800px;
+  font-weight: bolder;
+  font-style: initial;
+  color: rgb(1, 5, 9);
+}
+
+#cookie-button {
+  border-radius: 15px;
+  background-color: transparent;
+  border-style: groove;
+}
+#cookie-button:hover {
+  background-color: rgb(230, 184, 184);
+}
+
+#cookie {
+  width: 150px;
+  height: 150px;
+  align-items: center;
+}
+
+@media ((width <=650px)) {
+  #shop-upgrades-container {
+    margin-top: 0px;
+    min-width: 100px;
+    max-width: 600px;
+  }
+}
+
+#shop-upgrades-container {
+  position: relative;
+  min-width: 600px;
+  max-width: 800px;
+  align-items: center;
+  margin: 15px;
+  margin-top: 75px;
+}
+
+.upgrade-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 3px dotted #2f323c;
+  color: #704721;
+  font-family: monospace;
+  font-size: larger;
+  font-weight: bold;
+}
+.upgrade-cost {
+  color: rgb(170, 38, 38);
+}
+.upgrade-increase {
+  color: #d47832;
+}
+.buy-button {
+  border-radius: 20px;
+  background-color: #704721;
+  border-color: #704721;
+  color: azure;
+}
+.buy-button:hover {
+  background-color: rgb(239, 154, 26);
+}
+
+#Reset.reset-button {
+  border-radius: 30px;
+  background-color: maroon;
+  border-color: darkred;
+  color: aliceblue;
+  font-size: large;
+}
+
+#Reset.reset-button:hover {
+  background-color: blue;
+}
+
+#error-message {
+  position: relative;
+  display: none;
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+  font-size: large;
+}
